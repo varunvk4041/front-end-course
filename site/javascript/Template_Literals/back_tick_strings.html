@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const str1 = "Hello
+        
+        
+        
+        //              World"
+        // the above method of initialising multi-line strings is not 
+        // valid, breaks and gives errors
+
+        // An alternative is using back tick strings(tilde sign `)
+
+        const str2 = `Hello
+
+                    World`
+        console.log(str2)
+
+        // Suppose we have object given as below
+
+        const obj ={
+                name:'varun',
+                age:22
+            } 
+        // Now, we want to use these key-values in a string as variables
+        // Lets see with both " " or ' ' and with ` ` 
+        
+    const str3 = 'Hi, my name is '+ obj.name +' and my age is '+ obj.age +' years old'
+    console.log(str3)
+    // it is cumbersome to concatenate with all these + and quotes
+    // so another way it to use template literal ` backtick 
+    const str4 = `Hi, my name is ${obj.name} 
+    and my age is ${obj.age} years old!`
+    console.log(str4)
+        </script>
+</body>
+</html>

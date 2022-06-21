@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6 Destructuring</title>
+</head>
+<body>
+<script>
+const arr1 = [1,2,3]
+const arr2 = [4,5,6]
+
+const arr3 = [...arr1,...arr2]
+console.log(arr3)       // merged array is shown
+
+const obj1 = {
+    name: 'varun'
+}
+const obj2 = {
+    name:'kumar'
+}
+const obj3 = {
+    ...obj1,
+    ...obj2
+}
+console.log(obj3) // 2nd name is shown 
+let key = 'hello'
+const obj ={
+    key:key
+}
+console.log(obj)
+</script>   
+</body>
+</html>

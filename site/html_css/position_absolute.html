@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Absolute: Uses</title>
+    <style>
+        *{
+            background-color: green;
+            margin:0%
+        }
+        body{
+            display:flex;
+            justify-content: center;
+        }
+        div{
+
+            background: red;
+            height: 300px;
+            width: 600px;
+            position: relative
+        }
+        span{
+            display:block;
+            background: yellow;
+            height: 100px;
+            width: 100px;
+            position:absolute;
+            top: -10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>
+        </span>
+    </div>
+</body>
+</html>

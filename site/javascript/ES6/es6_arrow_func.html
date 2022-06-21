@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // we cant call this func before declaring it as 
+        // JS doesn't hoist it to top like other function keywords
+        //addFunc() gives error
+        const Funct= ()=>200
+        console.log(Funct())
+
+        let Add=(a,b)=>a+b
+        console.log(Add(20,5))
+        
+        // We can omit () if only 1 arguement. Not 0 or >1
+        let square=num=>num**2
+
+        console.log('Square of',50,'is: ',square(50))
+    </script>
+</body>
+</html>

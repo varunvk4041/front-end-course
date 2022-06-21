@@ -1,0 +1,44 @@
+*{
+    font-size: large;
+    padding: 5px;
+    margin:2px;
+}
+body{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+nav, footer{
+    flex-shrink: 0;
+}
+nav{
+    display:flex;
+    justify-content: end;
+}
+#Centre{
+    height:200px;
+    width: 80vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    flex-grow: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: rgb(208, 205, 205);
+    width: 100%;
+}
+input{
+    width:95%;
+    border-radius: 5px;
+    border: 1px black solid
+}
+button{
+    border-radius: 5px;
+    border: 1px black solid;
+    background-color: rgb(202, 202, 202)
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Fixed: Uses</title>
+    <style>
+        *{
+            background-color: green;
+            margin:0%
+        }
+        body{
+            display:flex;
+            justify-content: center;
+            min-height: 2000vh
+        }
+        div{
+
+            background: red;
+            height: 300px;
+            width: 600px;
+        }
+        span{
+            display:block;
+            background: yellow;
+            height: 100px;
+            width: 100px;
+            position:fixed;
+            top: 50%;
+            right: 50%;
+            padding:10px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>
+            THIS TEXT STAYS FIXED
+        </span>
+    </div>
+</body>
+</html>
