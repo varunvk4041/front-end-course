@@ -1,24 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Basic Form using HTML</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun Kumar</title>
+    <link rel='stylesheet' href="cv.css">
+    <link rel="icon" href="/Images/favicon.ico?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=
+            Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Details Form</h1>
-    <h2>Please enter your correct details below:</h2>
-    <form method="GET" action="/register">
-        <div>
-            <p>Enter your Name <input type="text" name="name" required></p>
+    <!-- <h1>Hello</h1>
+    <h1>Hello</h1>
+    <h1>Hello</h1>
+    <h1>Hello</h1>
+    <h1>Hello</h1> -->
+    <div class="welcome">
+        Hi, Welcome to my Portfolio Page. Have a nice day!
+    </div>
+    <div class="top_container">
+        <img class='top_cloud' src="/Images/CSS - My Site Images/site_images/cloud.png" alt="a cloud pic">
+
+        <h1>I am <span class='large'>Varun</span></h1>
+
+        <h2>A front-end developer</h2>
+
+        <img class='bottom_cloud' src="/Images/CSS - My Site Images/site_images/cloud.png" alt="a cloud pic">
+
+        <img class='mountain'src="/Images/CSS - My Site Images/site_images/mountain.png" alt="a mountain pic">
+    </div>
+    <div class="middle_container">
+        <div class="profile">
+            <img src="/Images/pic.jpg" alt="">
+            <h2>Hello</h2>
+            <p>I am learning web development through this awesome course!
+            </p>
         </div>
-        <div>
-            <p>Enter your Age <input type="number" name="age"></p>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="first_skill" src="/Images/CSS - My Site Images/site_images/computer.png" alt="">
+                <h3>C++ Programming</h3>
+                <p>I have 3 years of experience in C++ programming. Although not advanced,
+                    I would call myself an intermediate programmer :)
+                </p>
+            </div>
+            <div class="skill-row">
+                <img class="second_skill" src="https://shorturl.at/aekqC" alt="">
+                <h3>Front-End Web Development</h3>
+                <p>I am on the path of becoming a front-end developer. 
+                    Looking to polish my skills and to get a job in this field.</p>
+            </div>
         </div>
-        <div>
-            <p>Enter D.O.B <input type="date" name="dob"></p>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>for job offers, internships and to talk in general</h3>
+            <p>Let's connect to code together and develop the best websites!</p>
+            <a class='btn' href="mailto:varunvk4041@gmail.com" target="_blank">Contact Me</a></div>
         </div>
-        <div>
-            <input type="submit">
-        </div>
-    </form>
+    </div>
+    <div class="bottom_container">
+        <a class="footer-link" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        <a class="footer-link" href="https://discord.gg/" target="_blank">Discord</a>
+        <a class="footer-link" href="https://github.com/varunvk4041/" target="_blank">Github</a>
+        <p>&copy Varun 2022</p>
+    </div>
+
 </body>
+
 </html>
